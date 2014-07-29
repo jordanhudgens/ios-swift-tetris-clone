@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		849D9E3B1988676D00664792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D9E3A1988676D00664792 /* AppDelegate.swift */; };
-		849D9E3D1988676D00664792 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E3C1988676D00664792 /* GameScene.sks */; };
 		849D9E3F1988676D00664792 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D9E3E1988676D00664792 /* GameScene.swift */; };
 		849D9E411988676D00664792 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D9E401988676D00664792 /* GameViewController.swift */; };
 		849D9E441988676D00664792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E421988676D00664792 /* Main.storyboard */; };
@@ -30,7 +29,6 @@
 		849D9E351988676D00664792 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849D9E391988676D00664792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849D9E3A1988676D00664792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		849D9E3C1988676D00664792 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		849D9E3E1988676D00664792 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		849D9E401988676D00664792 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		849D9E431988676D00664792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				849D9E3A1988676D00664792 /* AppDelegate.swift */,
-				849D9E3C1988676D00664792 /* GameScene.sks */,
 				849D9E3E1988676D00664792 /* GameScene.swift */,
 				849D9E401988676D00664792 /* GameViewController.swift */,
 				849D9E421988676D00664792 /* Main.storyboard */,
@@ -196,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				849D9E461988676D00664792 /* Images.xcassets in Resources */,
-				849D9E3D1988676D00664792 /* GameScene.sks in Resources */,
 				849D9E441988676D00664792 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
