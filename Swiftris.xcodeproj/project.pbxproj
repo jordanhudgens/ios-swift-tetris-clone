@@ -13,6 +13,14 @@
 		849D9E441988676D00664792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E421988676D00664792 /* Main.storyboard */; };
 		849D9E461988676D00664792 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E451988676D00664792 /* Images.xcassets */; };
 		849D9E521988676D00664792 /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D9E511988676D00664792 /* SwiftrisTests.swift */; };
+		849D9E5C19886AB400664792 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E5B19886AB400664792 /* Sounds */; };
+		849D9E5E19886B4000664792 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E5D19886B4000664792 /* Sprites.atlas */; };
+		849D9E6519886B8200664792 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E5F19886B8200664792 /* background.png */; };
+		849D9E6619886B8200664792 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E6019886B8200664792 /* background@2x.png */; };
+		849D9E6719886B8200664792 /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E6119886B8200664792 /* gameboard.png */; };
+		849D9E6819886B8200664792 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E6219886B8200664792 /* gameboard@2x.png */; };
+		849D9E6919886B8200664792 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E6319886B8200664792 /* whitebg.png */; };
+		849D9E6A19886B8200664792 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D9E6419886B8200664792 /* whitebg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		849D9E4B1988676D00664792 /* SwiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849D9E501988676D00664792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849D9E511988676D00664792 /* SwiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisTests.swift; sourceTree = "<group>"; };
+		849D9E5B19886AB400664792 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		849D9E5D19886B4000664792 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		849D9E5F19886B8200664792 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		849D9E6019886B8200664792 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		849D9E6119886B8200664792 /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
+		849D9E6219886B8200664792 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		849D9E6319886B8200664792 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
+		849D9E6419886B8200664792 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +97,9 @@
 				849D9E3E1988676D00664792 /* GameScene.swift */,
 				849D9E401988676D00664792 /* GameViewController.swift */,
 				849D9E421988676D00664792 /* Main.storyboard */,
+				849D9E5D19886B4000664792 /* Sprites.atlas */,
 				849D9E451988676D00664792 /* Images.xcassets */,
+				849D9E5B19886AB400664792 /* Sounds */,
 				849D9E381988676D00664792 /* Supporting Files */,
 			);
 			path = Swiftris;
@@ -90,6 +108,12 @@
 		849D9E381988676D00664792 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				849D9E5F19886B8200664792 /* background.png */,
+				849D9E6019886B8200664792 /* background@2x.png */,
+				849D9E6119886B8200664792 /* gameboard.png */,
+				849D9E6219886B8200664792 /* gameboard@2x.png */,
+				849D9E6319886B8200664792 /* whitebg.png */,
+				849D9E6419886B8200664792 /* whitebg@2x.png */,
 				849D9E391988676D00664792 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +216,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849D9E5C19886AB400664792 /* Sounds in Resources */,
+				849D9E6519886B8200664792 /* background.png in Resources */,
 				849D9E461988676D00664792 /* Images.xcassets in Resources */,
+				849D9E5E19886B4000664792 /* Sprites.atlas in Resources */,
+				849D9E6719886B8200664792 /* gameboard.png in Resources */,
+				849D9E6919886B8200664792 /* whitebg.png in Resources */,
+				849D9E6619886B8200664792 /* background@2x.png in Resources */,
+				849D9E6A19886B8200664792 /* whitebg@2x.png in Resources */,
 				849D9E441988676D00664792 /* Main.storyboard in Resources */,
+				849D9E6819886B8200664792 /* gameboard@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
