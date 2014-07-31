@@ -37,7 +37,7 @@ class ZShape:Shape {
     */
     
     override var blockRowColumnPositions: [Orientation: Array<(columnDiff: Int, rowDiff: Int)>] {
-    return [
+        return [
             Orientation.Zero:       [(1, 0), (1, 1), (0, 1), (0, 2)],
             Orientation.Ninety:     [(-1,0), (0, 0), (0, 1), (1, 1)],
             Orientation.OneEighty:  [(1, 0), (1, 1), (0, 1), (0, 2)],
@@ -46,7 +46,7 @@ class ZShape:Shape {
     }
     
     override var bottomBlocksForOrientations: [Orientation: Array<Block>] {
-    return [
+        return [
             Orientation.Zero:       [blocks[SecondBlockIdx], blocks[FourthBlockIdx]],
             Orientation.Ninety:     [blocks[FirstBlockIdx], blocks[ThirdBlockIdx], blocks[FourthBlockIdx]],
             Orientation.OneEighty:  [blocks[SecondBlockIdx], blocks[FourthBlockIdx]],

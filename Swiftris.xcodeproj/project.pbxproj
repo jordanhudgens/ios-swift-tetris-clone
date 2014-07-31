@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84563FA51989C130001EE688 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84563FA41989C130001EE688 /* Swiftris.swift */; };
 		849AA1B619895EA200B8874E /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AA1B519895EA200B8874E /* TShape.swift */; };
 		849AA1B819895F0300B8874E /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AA1B719895F0300B8874E /* LineShape.swift */; };
 		849AA1BA19895F5800B8874E /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AA1B919895F5800B8874E /* LShape.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84563FA41989C130001EE688 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		849AA1B519895EA200B8874E /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
 		849AA1B719895F0300B8874E /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
 		849AA1B919895F5800B8874E /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				849AA1BB19895F8F00B8874E /* JShape.swift */,
 				849AA1BD19895FBD00B8874E /* SShape.swift */,
 				849AA1BF19895FF500B8874E /* ZShape.swift */,
+				84563FA41989C130001EE688 /* Swiftris.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				849CF8401988937F00F38C34 /* SquareShape.swift in Sources */,
 				849D9E3F1988676D00664792 /* GameScene.swift in Sources */,
 				849AA1BC19895F8F00B8874E /* JShape.swift in Sources */,
+				84563FA51989C130001EE688 /* Swiftris.swift in Sources */,
 				849D9E70198881CA00664792 /* Shape.swift in Sources */,
 				849D9E6C1988704200664792 /* Array2D.swift in Sources */,
 				849AA1B819895F0300B8874E /* LineShape.swift in Sources */,
