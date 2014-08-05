@@ -10,7 +10,7 @@ import UIKit
 import SpriteKit
 
 
-class GameViewController: UIViewController, SwiftrisDelegate {
+class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognizerDelegate {
     
     var scene: GameScene!
     var swiftris:Swiftris!
@@ -64,6 +64,10 @@ class GameViewController: UIViewController, SwiftrisDelegate {
         } else {
             nextShape()
         }
+    }
+    
+    @IBAction func didTap(sender: UITapGestureRecognizer) {
+        swiftris.rotateShape()
     }
     
     func gameDidEnd(swiftris: Swiftris) {
